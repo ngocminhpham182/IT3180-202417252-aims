@@ -8,7 +8,7 @@ class Cart:
         self.items = []
 
     def add_dvd(self, dvd):
-        if len(self.items) > MAX_NUMBERS_ORDERED:
+        if len(self.items) >= MAX_NUMBERS_ORDERED:
             print("The cart is almost full")
             return False
         self.items.append(dvd)
@@ -25,3 +25,15 @@ class Cart:
 
     def total_cost(self):
         return sum(item.cost for item in self.items)
+
+    def print_cart(self):
+        """In ra danh sách các đĩa trong giỏ hàng hoặc thông báo giỏ trống."""
+        if len(self.items) == 0:
+            print("The cart is empty")
+        else:
+            print("********************CART********************")
+            print("Ordered Items:")
+            for index, item in enumerate(self.items, start=1):
+                print(f"{index}. DVD - {item.title} - {item.category} - {item.cost} $")
+            print(f"Total cost: {self.total_cost()} $")
+            print("********************************************")
