@@ -8,6 +8,7 @@
 - Cập nhật thông báo khi thêm đĩa vào giỏ hàng thành công (từ dev 1).
 - Template Pull Request (`docs: add pull request template`).
 - Các bộ kiểm thử (test) tái hiện lỗi cho tính năng giảm giá và giới hạn giỏ hàng.
+- Thêm tính năng sort_by_title() và sort_by_cost() vào Cart
 
 ### Fixed
 - Lỗi tính sai số tiền sau giảm giá và bổ sung validate phần trăm hợp lệ.

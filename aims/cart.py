@@ -37,3 +37,13 @@ class Cart:
                 print(f"{index}. DVD - {item.title} - {item.category} - {item.cost} $")
             print(f"Total cost: {self.total_cost()} $")
             print("********************************************")
+
+    def sort_by_title(self):
+        """Sắp xếp các item trong giỏ hàng theo tiêu đề (Alphabet)"""
+        self.items.sort(key=lambda x: x.title)
+        print("Cart has been sorted by title.")
+
+    def sort_by_cost(self):
+        """Sắp xếp các item trong giỏ hàng theo giá tiền giảm dần"""
+        self.items.sort(key=lambda x: x.cost, reverse=True)
+        print("Cart has been sorted by cost.")
