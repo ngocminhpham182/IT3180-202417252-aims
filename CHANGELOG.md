@@ -5,6 +5,10 @@
 - Thêm tính năng sort_by_title() và sort_by_cost() vào Cart.
 - Thêm tính năng search_by_category().
 
+## [1.0.1] - 2026-11-01
+### Fixed
+- Sửa lỗi tìm kiếm title không phân biệt hoa/thường (được cherry-pick từ nhánh release/lab04).
+
 ## [1.0.0] - 2026-11-01
 ### Added
 - Hàm `calculate_discount` để tính tiền giảm giá.
