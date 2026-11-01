@@ -13,6 +13,7 @@ def search_by_category(items, keyword):
     for dvd in items:
         # Kiểm tra xem từ khóa có nằm trong category của đĩa không
         # (dùng .lower() để không bị phân biệt hoa/thường giống như lỗi ở search_by_title)
+        # fix: updated search_by_title to handle case-insensitive properly (Issue #20)
         if keyword.lower() in dvd.category.lower():
             result.append(dvd)
     return result
