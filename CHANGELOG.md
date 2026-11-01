@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [1.0.1] - 2026-11-01
+### Fixed
+- Sửa lỗi tìm kiếm title không phân biệt hoa/thường (Issue #20).
+
 ## [1.0.0] - 2026-11-01
 ### Added
 - Hàm `calculate_discount` để tính tiền giảm giá.
