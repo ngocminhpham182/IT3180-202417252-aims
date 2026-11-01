@@ -9,6 +9,7 @@
 - Template Pull Request (`docs: add pull request template`).
 - Các bộ kiểm thử (test) tái hiện lỗi cho tính năng giảm giá và giới hạn giỏ hàng.
 - Thêm tính năng sort_by_title() và sort_by_cost() vào Cart
+- Thêm tính năng search_by_category()
 
 ### Fixed
 - Lỗi tính sai số tiền sau giảm giá và bổ sung validate phần trăm hợp lệ.
