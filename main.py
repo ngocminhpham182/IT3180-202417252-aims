@@ -4,7 +4,7 @@ from aims.search import search_by_title
 
 
 def main():
-    print("AIMS-mini v1.0.0")
+    print("AIMS-mini v1.1.0")
 
     cart = Cart()
     dvd1 = DigitalVideoDisc(
